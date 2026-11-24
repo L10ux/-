@@ -3,7 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Мой личный кабинет репетитора</title>
+    <title>Полина | Репетитор английского и японского</title>
+    <!-- Подключаем красивый шрифт -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- Подключаем стили Tailwind CSS для быстрого дизайна -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: { sans: ['Nunito', 'sans-serif'] },
+            colors: {
+              pastelblue: '#EAF4F4',
+              deepblue: '#2B4C7E',
+              accent: '#F4A261'
+            }
+          }
+        }
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
