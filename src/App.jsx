@@ -80,7 +80,7 @@ function App() {
           <div className="bg-white p-6 rounded-2xl shadow-sm text-center">
              <div className="text-3xl mb-4">🎮</div>
              <h3 className="font-bold text-deepblue mb-2">Интерактивные уроки</h3>
-             <p className="text-sm text-gray-600">Учимся играя. Находим подход к каждому ребенку.</p>
+             <p className="text-sm text-gray-600">Учимся играя. Нахожу подход к каждому ребенку.</p>
           </div>
           <div className="bg-white p-6 rounded-2xl shadow-sm text-center">
              <div className="text-3xl mb-4">📚</div>
